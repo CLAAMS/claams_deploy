@@ -24,9 +24,6 @@
                             <p><a href="https://accounts.temple.edu/selfcare/identification.jsp">Forgot Password</a></p>
                         </div>
                         <div class="center-block">
-                            <asp:Button ID="btnLDAPInfo" runat="server" Text="Get LDAP Info" CssClass="btn btn-default" OnClick="btnLDAPInfo_Click" />
-                        </div>
-                        <div class="center-block">
                             <asp:Label ID="lblLDAPOutput" runat="server" CssClass="label" />
                         </div>
                     </form>
