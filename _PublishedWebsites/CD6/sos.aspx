@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/master.Master" AutoEventWireup="true" CodeBehind="sos.aspx.cs" Inherits="CD6.sos" %>
+﻿ <%@ Page Title="" Language="C#" MasterPageFile="~/master.Master" AutoEventWireup="true" CodeBehind="sos.aspx.cs" Inherits="CD6.sos" %>
 <%@ MasterType VirtualPath="~/master.Master" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <link href="css/sos.css" rel="stylesheet" />
@@ -119,8 +119,8 @@
                                 <asp:BoundField DataField="DateCreated" HeaderText="Date Created" />
                                 <asp:BoundField DataField="DateDue" HeaderText="Date Due" />
                                 <asp:BoundField DataField="Status" HeaderText="Status" />
-                                <asp:ButtonField ButtonType="Button" Text="View/Edit" CommandName="modify" ControlStyle-CssClass="btn-default btn" />                       
-                                <asp:ButtonField ButtonType="Button" Text="Delete" CommandName="Delete" ControlStyle-CssClass="btn-danger btn" />
+                                <asp:ButtonField ButtonType="Button" Text="View/Edit" CommandName="modify" ControlStyle-CssClass="btn-default btn" />
+                                <asp:ButtonField ButtonType="Button" Text="Archive" CommandName="Delete" ControlStyle-CssClass="btn-danger btn"/>
                             </Columns>
                         </asp:GridView>
                     </div>
